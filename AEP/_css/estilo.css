@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body{	
+    background-size: 100%;
+    font-family: arial,sans-serif;
+    background-color: #222222;
+
+}
+
+body#autentication{
+
+    background-color: #000000;
+}
+
+p{
+    font-family:impact;
+    font-size:20pt;
+    color:#fff;
+    color: #ffffff;
+}
+
+h3{
+    color: #fff;
+    font-size: 10pt;
+    margin-bottom: 0%;
+    font-family: arial;
+    text-decoration: none;
+
+}
+div#interface{ 
+    height: 1230px;
+    width: 900px;
+    background-color: #000000;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;	
+}
+
+#admin{
+	text-align:right;
+	color: #fff;
+	}
+
+#admin span {
+	margin-right: 20px;
+	padding: 05px;
+	font-size: 15pt;
+}
+
+a#logout {
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    
+
+}
+
+header#cabecalho{
+    background: url("../_imagens/cabecalho.png") no-repeat center;
+    height: 335px;
+
+}
+
+section#navegacao{
+    background-color:#ffffff;
+    height:43px;
+}
+
+*{margin: 0; padding: 0;}
+
+.menu{
+    list-style:none; 
+    float:left; 
+    margin-left: 22%;
+
+}
+
+.menu li{
+    position:relative; 
+    float:left;
+}
+
+.menu li a{
+    color:black;
+    text-decoration: none;
+    font-family: impact;
+    font-size: 20pt;
+    padding:5px 40px; 
+    display:block;
+}
+
+.menu li a:hover{
+    background:#333; 
+    color:#ffffff; 
+    -moz-box-shadow:0 3px 10px 0 #CCC; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+}
+
+.menu li  ul{
+    position:absolute; 
+    top:25px; 
+    background-color:#ffffff; 
+    display:none;
+    z-index: 1;
+}   
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+section#conteudo{	
+    background-color: #111; 
+    height: 800px;
+
+}
+
+.calendario{
+    border: 1px;
+
+}
+
+footer#rodape{ 	
+    background-color:#ffffff;
+    text-align:center;
+    height:45px;
+}
+
+footer#rodape h3{
+    color:black;
+    font-family: impact;
+    font-size: 15pt;
+    padding: 4px; 	
+    text-shadow:0px 0px 5px #fff;
+}
+
